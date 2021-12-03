@@ -1,0 +1,131 @@
+﻿@model IEnumerable<CapaEntidades.documento>
+@using CapaNegocio;
+@{
+    ViewBag.Title = "VerDoc";
+}
+
+
+<form action="" class="form-register2">
+    <h3>Ver Documentos</h3>
+    <table class="table" id="tableDemo">
+        <thead>
+
+            <tr>
+                <th>
+                    @Html.DisplayName("Id")
+                </th>
+                <th>
+                    @Html.DisplayName("Tipo de documento")
+                </th>
+                <th>
+                    @Html.DisplayName("Codigo documento")
+                </th>
+                <th>
+                    @Html.DisplayName("Cedula Empleado")
+                </th>
+                <th>
+                    @Html.DisplayName("Fecha de creacion")
+                </th>
+                <th>
+                    @Html.DisplayName("Departamento origen")
+                </th>
+                <th>
+                    @Html.DisplayName("Departamento destino")
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.iddoc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tipodoc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.coddoc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cedulaempleado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fechacreacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.departamentoorigen)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.departamentodestino)
+                    </td>
+                    <td>
+                        <a class="btn btn-primary btn-xs" title="Editar" href="@Url.Action("Editar", "Doc", new { id = item.iddoc })">
+                            <i class="glyphicon glyphicon-edit"></i>
+                        </a>
+                        |
+                        <a class="btn btn-danger btn-xs" onclick="EliminarUsuario(@item.iddoc)" title="Eliminar">
+                            <i class="glyphicon glyphicon-trash"></i>
+                        </a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <div>
+        @Html.ActionLink("Volver", "menu", "Usuario")
+    </div>
+</form>
+
+
+@section scripts{
+
+    <script>$('#tableDemo').DataTable();</script>
+
+    <script>
+        function LoadingOverlayShow(id) {
+            $(id).LoadingOverlay("show", {
+                color: "rgba(255, 255, 255, 0.5)",
+                image: "/Content/loading.gif",
+                imageResizeFactor: 0.6,
+                //imageAnimation: "1.5s fadein",
+            });
+        }
+        function LoadingOverlayHide(id) {
+            $(id).LoadingOverlay("hide");
+        }
+        function EliminarUsuario(id) {
+            $.confirm({
+                title: 'Eliminar Documento',
+
+                content: '¿Seguro de eliminar este Documento?',
+                buttons: {
+                    Confirmar: function () {
+                        LoadingOverlayShow("#tableDemo");
+                        $.ajax({
+                            url: "/Doc/Eliminar",
+                            type: "post",
+                            data: { idd: id }
+                        }).done(function (response) {
+                            location.reload();
+                        }).fail(function (jqXHR, textStatus, errorThrown) {
+                            alert(textStatus);
+                            location.reload();
+                        });
+
+                    },
+                    Cancelar: function () {
+
+                    },
+                }
+            });
+
+        }
+
+
+    </script>
+}
+

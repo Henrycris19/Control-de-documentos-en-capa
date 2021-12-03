@@ -1,0 +1,98 @@
+﻿@model CapaEntidades.Usuario
+
+@{
+    ViewBag.Title = "CrearUsuario";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <form action="" class="form-register">
+        <section class="form-register">
+
+            <h4>Crear usuario</h4>
+            <hr />
+            @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Idempleado, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Idempleado, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Idempleado, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            <div class="">
+                @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "controls" } })
+                    @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="">
+                @Html.LabelFor(model => model.Cedula, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Cedula, new { htmlAttributes = new { @class = "controls" } })
+                    @Html.ValidationMessageFor(model => model.Cedula, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="">
+                @Html.LabelFor(model => model.Correo, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "controls", @type = "email" } })
+                    @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="">
+                @Html.LabelFor(model => model.Clave, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Clave, new { htmlAttributes = new { @class = "controls", @type = "password" } })
+                    @Html.ValidationMessageFor(model => model.Clave, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="">
+                @Html.LabelFor(model => model.Departamento, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.DropDownListFor(model => model.Departamento, ViewData["lista"] as IEnumerable<SelectListItem>, "Sin seleccionar", new { @class = "controls" })
+                    @Html.ValidationMessageFor(model => model.Departamento, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="">
+                @Html.LabelFor(model => model.Cargo, htmlAttributes: new { @class = "label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Cargo, new { htmlAttributes = new { @class = "controls" } })
+                    @Html.ValidationMessageFor(model => model.Cargo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div>
+                <input type="submit" value="Crear" class="botons" onclick="aceptar()"/>
+
+            </div>
+            <div>
+                @Html.ActionLink("Volver", "menu")
+            </div>
+
+        </section>
+    </form>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        function aceptar() {
+            alert("Usuario guardado.");
+        }
+    </script>
+}

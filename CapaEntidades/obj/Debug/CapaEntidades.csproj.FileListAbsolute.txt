@@ -1,0 +1,24 @@
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.dll.config
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.SqlServer.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\bin\Debug\EntityFramework.SqlServer.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\CapaEntidades\obj\Debug\CapaEntidades.pdb

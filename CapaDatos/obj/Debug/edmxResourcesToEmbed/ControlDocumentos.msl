@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ControlDocumentosModelStoreContainer" CdmEntityContainer="ControlDocumentosEntities">
+    <EntitySetMapping Name="departamentos">
+      <EntityTypeMapping TypeName="ControlDocumentosModel.departamentos">
+        <MappingFragment StoreEntitySet="departamentos">
+          <ScalarProperty Name="nombredepto" ColumnName="nombredepto" />
+          <ScalarProperty Name="codigodepto" ColumnName="codigodepto" />
+          <ScalarProperty Name="iddepto" ColumnName="iddepto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="documento">
+      <EntityTypeMapping TypeName="ControlDocumentosModel.documento">
+        <MappingFragment StoreEntitySet="documento">
+          <ScalarProperty Name="departamentodestino" ColumnName="departamentodestino" />
+          <ScalarProperty Name="departamentoorigen" ColumnName="departamentoorigen" />
+          <ScalarProperty Name="fechacreacion" ColumnName="fechacreacion" />
+          <ScalarProperty Name="cedulaempleado" ColumnName="cedulaempleado" />
+          <ScalarProperty Name="coddoc" ColumnName="coddoc" />
+          <ScalarProperty Name="tipodoc" ColumnName="tipodoc" />
+          <ScalarProperty Name="iddoc" ColumnName="iddoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="ControlDocumentosModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Idempleado" ColumnName="Idempleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="date_range" FunctionName="ControlDocumentosModel.Store.date_range">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ControlDocumentosModel.date_range_Result">
+          <ScalarProperty Name="iddoc" ColumnName="iddoc" />
+          <ScalarProperty Name="tipodoc" ColumnName="tipodoc" />
+          <ScalarProperty Name="coddoc" ColumnName="coddoc" />
+          <ScalarProperty Name="cedulaempleado" ColumnName="cedulaempleado" />
+          <ScalarProperty Name="fechacreacion" ColumnName="fechacreacion" />
+          <ScalarProperty Name="departamentoorigen" ColumnName="departamentoorigen" />
+          <ScalarProperty Name="departamentodestino" ColumnName="departamentodestino" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

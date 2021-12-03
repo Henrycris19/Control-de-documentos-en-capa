@@ -1,0 +1,66 @@
+﻿@model CapaEntidades.documento
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+
+<form id="frmEmpleado" action="@Url.Action("Editar", "Doc")" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-register">
+        <h4>Editar Documento</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.iddoc)
+
+        <div class="form-group">
+            <label class="label">Tipo de documento</label>
+            <div class="">
+                <input type="text" class="controls" name="tipodoc"
+                       value="@Model.tipodoc" placeholder="Ingrese el tipo de documento" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="label">Cedula empleado</label>
+            <div class="">
+                @Html.DropDownListFor(model => model.cedulaempleado, ViewData["lista2"] as IEnumerable<SelectListItem>, "Sin seleccionar", new { @class = "controls" })
+                @Html.ValidationMessageFor(model => model.cedulaempleado, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="label">Departamento drigen</label>
+            <div class="">
+                @Html.DropDownListFor(model => model.departamentoorigen, ViewData["lista"] as IEnumerable<SelectListItem>, "Sin seleccionar", new { @class = "controls" })
+                @Html.ValidationMessageFor(model => model.departamentoorigen, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="label">Departamento destino</label>
+            <div class="">
+                @Html.DropDownListFor(model => model.departamentodestino, ViewData["lista"] as IEnumerable<SelectListItem>, "Sin seleccionar", new { @class = "controls" })
+                @Html.ValidationMessageFor(model => model.departamentodestino, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="">
+                <input type="submit" value="Guardar cambios" class="botons" onclick="aceptar()" />
+            </div>
+        </div>
+        <div>
+            @Html.ActionLink("Volver", "VerDoc")
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+
+    <script>
+        function aceptar() {
+            alert("Cambios realizados.");
+        }
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

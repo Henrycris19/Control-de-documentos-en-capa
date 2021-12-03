@@ -1,0 +1,108 @@
+﻿@model IEnumerable<CapaEntidades.departamentos>
+
+@{
+    ViewBag.Title = "VerDeptos";
+}
+
+
+
+<form action="" class="form-register2">
+
+    <h3>Ver, editar y eliminar departamentos.</h3>
+    <table class="table" id="tableDemo" style="width: 800px;">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.iddepto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.codigodepto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombredepto)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.iddepto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codigodepto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nombredepto)
+                    </td>
+                    <td>
+                        <a class="btn btn-primary btn-xs" title="Editar" href="@Url.Action("Editar", "Depto", new { id = item.iddepto})">
+                            <i class="glyphicon glyphicon-edit"></i>
+                        </a>
+                        |
+                        <a class="btn btn-danger btn-xs" onclick="EliminarUsuario(@item.iddepto)" title="Eliminar">
+                            <i class="glyphicon glyphicon-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+
+    </table>
+    <div>
+        @Html.ActionLink("Volver", "menu", "Usuario")
+    </div>
+
+</form>
+
+
+@section scripts{
+
+    <script>$('#tableDemo').DataTable();</script>
+
+    <script>
+        function LoadingOverlayShow(id) {
+            $(id).LoadingOverlay("show", {
+                color: "rgba(255, 255, 255, 0.5)",
+                image: "/Content/loading.gif",
+                imageResizeFactor: 0.6,
+                //imageAnimation: "1.5s fadein",
+            });
+        }
+        function LoadingOverlayHide(id) {
+            $(id).LoadingOverlay("hide");
+        }
+        function EliminarUsuario(id) {
+            $.confirm({
+                title: 'Eliminar Empleado!',
+
+                content: '¿Seguro de eliminar este usuario?',
+                buttons: {
+                    Confirmar: function () {
+                        LoadingOverlayShow("#tableDemo");
+                        $.ajax({
+                            url: "/Depto/Eliminar",
+                            type: "post",
+                            data: { idd: id }
+                        }).done(function (response) {
+                            location.reload();
+                        }).fail(function (jqXHR, textStatus, errorThrown) {
+                            alert(textStatus);
+                            location.reload();
+                        });
+
+                    },
+                    Cancelar: function () {
+
+                    },
+                }
+            });
+
+        }
+
+
+    </script>
+    }

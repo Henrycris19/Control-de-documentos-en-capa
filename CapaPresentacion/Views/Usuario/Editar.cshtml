@@ -1,0 +1,82 @@
+﻿@model CapaEntidades.Usuario
+
+@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form id="frmEmpleado" action="@Url.Action("Editar", "Usuario")" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-register">
+        <h4>Editar Empleado</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "" })
+        @Html.HiddenFor(model => model.Idempleado)
+
+        <div class="">
+            <label class="label">Nombre</label>
+            <div class="">
+                <input type="text" class="controls" name="Nombre"
+                       value="@Model.Nombre" placeholder="Ingrese nombres del usuario" required />
+            </div>
+        </div>
+        <div class="">
+            <label class="label">Cedula</label>
+            <div class="">
+                <input type="text" class="controls" name="Cedula"
+                       value="@Model.Cedula" placeholder="Ingrese Cedula del usuario" required />
+            </div>
+        </div>
+        <div class="">
+            <label class="label">Coreo</label>
+            <div class="">
+                <input type="email" class="controls" name="Correo"
+                       value="@Model.Correo" placeholder="Ingrese Email del Empleado" required />
+            </div>
+        </div>
+        <div class="">
+            <label class="label">Clave</label>
+            <div class="">
+                <input type="password" class="controls" name="Clave"
+                       value="@Model.Clave" placeholder="Ingrese la clave de la sesión" required />
+            </div>
+        </div>
+
+        <div class="">
+            <label class="label">Departamentos</label>
+            <div class="">
+                @Html.DropDownListFor(model => model.Departamento, ViewData["lista"] as IEnumerable<SelectListItem>, "Sin seleccionar", new { @class = "controls" })
+                @Html.ValidationMessageFor(model => model.Departamento, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="">
+            <label class="label">Cargo</label>
+            <div class="">
+                <input type="text" class="controls" name="Cargo"
+                       value="@Model.Cargo" placeholder="Ingrese el cargo del Empleado" required />
+            </div>
+        </div>
+        <div class="">
+            <div class="">
+                <input type="submit" value="Guardar Empleado" class="botons"  onclick="aceptar()"/>
+            </div>
+        </div>
+        <div>
+            @Html.ActionLink("Volver", "VerUsuario")
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        function aceptar() {
+            alert("Cambios realizados.");
+        }
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+}

@@ -1,0 +1,71 @@
+﻿@model CapaEntidades.documento
+
+@{ ViewBag.Title = "Detalles"; }
+<form action="" class="form-register">
+    <div>
+
+        <h4>Detalles del documento</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Id:
+            </dt>
+
+            <dd>
+                @Model.iddoc
+            </dd>
+
+            <dt>
+                Tipo de documento:
+            </dt>
+
+            <dd>
+                @Model.tipodoc
+            </dd>
+
+            <dt>
+                Código del documento:
+            </dt>
+
+            <dd>
+                @Model.coddoc
+            </dd>
+
+            <dt>
+                Cedula de empleado:
+            </dt>
+
+            <dd>
+                @Model.cedulaempleado
+            </dd>
+
+            <dt>
+                Fecha de creación:
+            </dt>
+
+            <dd>
+                @Model.fechacreacion
+            </dd>
+            <dt>
+                Departamento origen:
+            </dt>
+
+            <dd>
+                @Model.departamentoorigen
+            </dd>
+            <dt>
+                Departamento destino:
+            </dt>
+
+            <dd>
+                @Model.departamentodestino
+            </dd>
+
+        </dl>
+
+    </div>
+    <p>
+        <a class="botons" href="@Url.Action("Editar", "Doc", new { id = Model.iddoc })">Editar</a>
+        <a class="botons" href="@Url.Action("menu", "Usuario")">Regresar</a>
+    </p>
+</form>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ControlDocumentosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="departamentos">
+    <Key>
+      <PropertyRef Name="iddepto" />
+    </Key>
+    <Property Name="iddepto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codigodepto" Type="varchar" MaxLength="30" />
+    <Property Name="nombredepto" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="documento">
+    <Key>
+      <PropertyRef Name="iddoc" />
+    </Key>
+    <Property Name="iddoc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipodoc" Type="varchar" MaxLength="30" />
+    <Property Name="coddoc" Type="varchar" MaxLength="20" />
+    <Property Name="cedulaempleado" Type="varchar" MaxLength="30" />
+    <Property Name="fechacreacion" Type="varchar" MaxLength="20" />
+    <Property Name="departamentoorigen" Type="varchar" MaxLength="30" />
+    <Property Name="departamentodestino" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Idempleado" />
+    </Key>
+    <Property Name="Idempleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Cedula" Type="varchar" MaxLength="30" />
+    <Property Name="Correo" Type="varchar" MaxLength="30" />
+    <Property Name="Clave" Type="varchar" MaxLength="30" />
+    <Property Name="Departamento" Type="varchar" MaxLength="40" />
+    <Property Name="Cargo" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <Function Name="date_range" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fechaini" Type="varchar" Mode="In" />
+    <Parameter Name="fechafi" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ControlDocumentosModelStoreContainer">
+    <EntitySet Name="departamentos" EntityType="Self.departamentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="documento" EntityType="Self.documento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

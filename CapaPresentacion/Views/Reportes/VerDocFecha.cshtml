@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+<link href="~/Content/crear.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Buscar por fecha";
+}
+
+<h2 style="color: green;">Buscar por Departamento - Rango de Fecha</h2>
+
+
+
+
+<form action="VerDocFechaRes" method="post" class="form-control">
+
+    @Html.TextBox("fechaini", "Fecha Inicial", new { @class = "date-picker" })
+    @Html.TextBox("fechafinal", "Fecha Final", new { @class = "date-picker" })
+
+
+    <input type="submit" value="Buscar" class="botons" />
+
+</form>
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            $('.date-picker').datepicker({
+                dateFormat: 'dd/mm/yy',
+                changeMonth: true,
+                changeYear: true
+            });
+
+        });
+
+    </script>
+    
+    }

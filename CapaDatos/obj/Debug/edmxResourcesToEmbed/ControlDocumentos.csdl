@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ControlDocumentosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ControlDocumentosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="departamentos" EntityType="ControlDocumentosModel.departamentos" />
+    <EntitySet Name="documento" EntityType="ControlDocumentosModel.documento" />
+    <EntitySet Name="Usuario" EntityType="ControlDocumentosModel.Usuario" />
+    <FunctionImport Name="date_range" ReturnType="Collection(ControlDocumentosModel.date_range_Result)">
+      <Parameter Name="fechaini" Mode="In" Type="String" />
+      <Parameter Name="fechafi" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="departamentos">
+    <Key>
+      <PropertyRef Name="iddepto" />
+    </Key>
+    <Property Name="iddepto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codigodepto" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="nombredepto" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="documento">
+    <Key>
+      <PropertyRef Name="iddoc" />
+    </Key>
+    <Property Name="iddoc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tipodoc" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="coddoc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cedulaempleado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="fechacreacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="departamentoorigen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="departamentodestino" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Idempleado" />
+    </Key>
+    <Property Name="Idempleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cedula" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Clave" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Departamento" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Cargo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="date_range_Result">
+    <Property Type="Int32" Name="iddoc" Nullable="false" />
+    <Property Type="String" Name="tipodoc" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="coddoc" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="cedulaempleado" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="fechacreacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="departamentoorigen" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="departamentodestino" Nullable="true" MaxLength="30" />
+  </ComplexType>
+</Schema>

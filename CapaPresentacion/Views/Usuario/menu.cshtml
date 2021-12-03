@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "menu";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Formulario Registro</title>
+</head>
+<body>
+    <form action="" class="form-register">
+        <section>
+            <h4 style="text-align:center; color: green;"> Menú</h4>
+
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Crear nuevo Usuario", "CrearUsuario", "Depto", new { @class = "actionlink" })</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Ver, editar y eliminar usuarios", "VerUsuario", "Usuario", new { @class = "actionlink" })</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Crear nuevo Departamento", "CrearDepto", "Depto")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Ver, editar y eliminar deptos", "VerDeptos", "Depto")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Crear nuevo Documento", "Creardoc", "Doc")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Ver, editar y eliminar documentos", "VerDoc", "Doc")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Reporte documentos empleados", "VerDocEm", "Doc")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Reporte documentos dpto origen", "VerDocDepO", "Doc")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Reporte documentos dpto destino", "VerDocDepD", "Doc")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Reporte documentos rango fecha", "VerDocFecha", "Reportes")</li>
+            <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Cerrar sesión", "menu2", "Usuario")</li>
+
+
+        </section>
+    </form>
+
+</body>
+</html>

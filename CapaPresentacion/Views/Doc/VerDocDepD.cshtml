@@ -1,0 +1,64 @@
+﻿@model IEnumerable<CapaEntidades.documento>
+@using CapaNegocio;
+@{
+    ViewBag.Title = "Ver Documentos";
+}
+
+
+<form action="" class="form-register2">
+    <h3>Ver Documentos</h3>
+    <table class="table" id="tableDemo">
+        <thead>
+
+            <tr>
+                <th>
+                    @Html.DisplayName("Id")
+                </th>
+                <th>
+                    @Html.DisplayName("Departamento de destino")
+                </th>
+                <th>
+                    @Html.DisplayName("Tipo de documento")
+                </th>
+                <th>
+                    @Html.DisplayName("Fecha de creacion")
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.iddoc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.departamentodestino)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tipodoc)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fechacreacion)
+                    </td>
+                    <td>
+                        <a class="btn btn-info btn-xs" title="Detalles" href="@Url.Action("Detalles", "Doc", new { id = item.iddoc })">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                        </a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <div>
+        @Html.ActionLink("Volver", "menu", "Usuario")
+    </div>
+</form>
+@section Scripts {
+    <script>$('#tableDemo').DataTable();</script>
+
+}

@@ -1,0 +1,102 @@
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csprojAssemblyReference.cache
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CoreCompileInputs.cache
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CopyComplete
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.dll
+C:\Users\pn\Documents\MEGAsync\Itla\Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.pdb
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll.config
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csprojAssemblyReference.cache
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CoreCompileInputs.cache
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CopyComplete
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.dll
+C:\Users\pn\Documents\MEGAsync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll.config
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Capa_Servicios.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaDatos.dll.config
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.pdb
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\CapaEntidades.dll.config
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\EntityFramework.SqlServer.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Mvc.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Razor.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.Razor.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.Razor.resources.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.AssemblyReference.cache
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CoreCompileInputs.cache
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\CapaServicios.csproj.CopyComplete
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.dll
+D:\MegaSync\Itla\4. Cuarto cuatrimestre\Programación II\Proyecto_Final\Capa_Servicios\obj\Debug\Capa_Servicios.pdb

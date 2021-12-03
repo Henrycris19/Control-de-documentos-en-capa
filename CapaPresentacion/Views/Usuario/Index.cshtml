@@ -1,0 +1,71 @@
+﻿@model CapaEntidades.Usuario
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<script type="text/javascript">
+    $(document).ready(function () {
+        if ($('#popupdiv').html() != '') {
+            $("#popupdiv").show();
+        }
+    });
+</script>
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    if (@ViewBag.Mensaje != null)
+    {
+        <div id="popupdiv" style="border: 2px solid red; background-color:white; display: none; ">
+            @ViewBag.Mensaje
+            <script>
+                alert("Datos incorrecto, intente de nuevo.");
+            </script>
+        </div>
+
+    }
+
+    <rrm action="" class="form-register" style=" width: 368px;">
+        <section class="form-register">
+            <div>
+                <h4>Login</h4>
+                <hr />
+
+
+                <div>
+                    @Html.LabelFor(model => model.Correo, htmlAttributes: new { @class = "label" })
+                    <div>
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "controls2", @type = "email" } })
+                        @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(model => model.Clave, htmlAttributes: new { @class = "label" })
+                    <div>
+                        @Html.EditorFor(model => model.Clave, new { htmlAttributes = new { @class = "controls2", @type = "password" } })
+                        @Html.ValidationMessageFor(model => model.Clave, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div>
+                    <br><label id="error" class="msg">Hay campos sin llenar.</label>
+                    @Html.ActionLink("Crear Usuario", "CrearUsuario")
+                </div>
+                <div>
+                    <div>
+                        <input type="submit" value="Ingresar" class="botons" />
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </rrm>
+}
+
+

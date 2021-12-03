@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Incio";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Formulario Registro</title>
+</head>
+<body>
+    <form action="" class="form-register">
+        <section>
+            <h4 style="text-align:center;"> Bienvenido/a</h4>
+            <div >
+                <ul>
+                    <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Iniciar sesión", "Index", "Usuario")</li>
+                    <li style="text-align:left; font-size: 20px; color: green"> @Html.ActionLink("Crear nuevo Usuario", "CrearUsuario", "Usuario",  new { @class = "actionlink" })</li>
+                </ul>
+            </div>
+
+            
+        </section>
+    </form>
+
+</body>
+</html>
